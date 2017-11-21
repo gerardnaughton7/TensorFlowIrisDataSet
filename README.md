@@ -23,7 +23,7 @@ Use the testing set to train your model.
 
 Use the testing set to test your model, clearly calculating and displaying the error rate.
 
-## In my Jupyter Notebook you able to view the solutions for these questions
+## In my Jupyter Notebook you are able to view the solutions for these questions
 
 ## How to use my solution on Jupyter NoteBook 
 
@@ -31,8 +31,17 @@ Use the testing set to test your model, clearly calculating and displaying the e
 
 2. Download my repository to your computer using clone or download methods
 
-3. When you downloaded anaconda you will have recieved a anaconda terminal called anaconda prompt. if you search on your computer it should pop up. Once open navigate to your repository where my download is. 
+3. When you downloaded anaconda you will have recieved a anaconda terminal called anaconda prompt. if you search on your computer it should pop up.
 
-4. Once in the directory type the command "Jupyter Notebook". This shall open a browser displaying your Jupyter notebook folder. Then just click on IrisDataSet.ipynb and the solutions should be there. With Jupyter notebook you will be able to manipulate the data and change the code.
+4. Through this terminal you will install Tensorflow. Click on the following [link](https://www.tensorflow.org/install/) and follow their instructions. 
 
-5. Alternatively if you just want to click on my IrisDataSet.ipynb on my github repository it will bring us to a non editable version. But here you can view the code and the data.
+5. After installing tensorflow navigate to your repository. In here activate Tensorflow with the command "activate tensorflow". 
+You will now have install 2 more packages:
+* Keras
+  * Install using command: "conda install -c conda-forge keras"
+* Numpy
+  * Install using command: "conda install -c anaconda numpy "
+
+4. Once install is complete type the command "Jupyter Notebook". This shall open a browser displaying your Jupyter notebook folder. Then just click on Iris_Tensorflow.ipynb and the solutions should be there. With Jupyter notebook you will be able to manipulate the data and change the code.
+
+5. Alternatively if you just want to click on my [Iris_Tensorflow.ipynb Link](https://github.com/gerardnaughton7/TensorFlowIrisDataSet/blob/master/Iris_Tensorflow.ipynb) on my github repository it will bring you to a non editable version. But here you can view the code and the data.
